@@ -124,14 +124,16 @@ i{
     text-align: center;
 }
 .project-container{
-    background-image:linear-gradient(to bottom, rgb(166, 247, 247), rgb(142, 247, 212));
+    /* background-image:linear-gradient(to bottom, rgb(166, 247, 247), rgb(142, 247, 212)); */
+    background-image: linear-gradient(to bottom, rgba(4, 7, 160, 0.9), rgb(6, 144, 223));
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .project-container img{
     width: 100%;
     padding: 20px;
-    box-shadow: 2px 2px 5px rgb(1, 129, 129);
+    /* box-shadow: 2px 2px 5px rgb(1, 129, 129); */
+    box-shadow: 2px 2px 5px rgb(1, 1, 61);
     
 }
 .project-container p{

@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-section{
+    background-image: linear-gradient(to right, rgba(4, 7, 160, 0.9), rgb(6, 144, 223));
+    /* padding: 5px 20px; */
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  header{
+        display: flex;
+        gap: 30%;
+        padding: 5px 20px;
+        
+        
+    }
+    .logo-section {
+        font-family: cursive;
+        font-weight: 900;
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    #hamburger{
+        font-size: 40px;
+        padding-top: 15px;
+    }
+    .fas{
+        position: absolute;
+        top: 20px;
+        left: 82%;
+    }
+    .link{
+        display: block;
+        padding: 20px ;
+    }
+
+  .nav-link {
+     display: flex;
+     gap: 20px;
+     padding-top: 10px;
+     position: fixed;
+     top: 20px;
+     right: 0;
+     height: 40%;
+      width: 0;
+     overflow: hidden; 
+      background-color: rgba(8, 8, 241, 0.658);
+      box-shadow: 2px 2px 5px rgba(1, 1, 46, 0.753);
+      z-index: 1;
+      transition: 1s ease;
+     
+
+    
+  }
+.nav-link a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3.0;
+    font-weight: 700;
+}
+
+
+.close{
+    font-weight: 900;
+    padding-right: 25px;
+    font-size: 35px;
+    color: white;
+}
+.logo-section span{
+    color: rgba(2, 2, 68);
+}
+.logo-section h1{
+    color: white;
+}
+.main{
+    line-height: 1.7;
+    padding: 20px 0;
+    color: white;
+    padding: 5px 20px;
+}
+button{
+    padding: 15px ;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.shape{
+    display: flex;
+    position:absolute;
+    top: -69px; 
+}
+.circle{
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+.about p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 20px;
+    line-height: 1.5;
+}
+i{
+    font-size: 30px;
+    color: black;
+    
+}
+.skills{
+    display:block;
+    text-align: center;
+}
+.project-container{
+    background-image:linear-gradient(to bottom, rgb(166, 247, 247), rgb(142, 247, 212));
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project-container img{
+    width: 100%;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgb(1, 129, 129);
+    
+}
+.project-container p{
+    padding: 20px;
+    font-size: 20px;
+   
+}
+.project-container h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.contact-container{
+    background-image: linear-gradient(to right, rgba(4, 7, 160, 0.9), rgb(6, 144, 223));
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+.contact-container i{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.contact-container p{
+    font-size: 16px;
+    font-weight: 200;
+}
+

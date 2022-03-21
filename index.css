@@ -128,6 +128,7 @@ i{
     background-image: linear-gradient(to bottom, rgba(4, 7, 160, 0.9), rgb(6, 144, 223));
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 .project-container img{
     width: 100%;

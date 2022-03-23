@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main-section{
-    background-image: linear-gradient(to right, rgba(4, 7, 160, 0.9), rgb(6, 144, 223));
+    background-image: linear-gradient(to right, rgba(5, 9, 252, 0.781), rgba(4, 158, 247, 0.788) );
     /* padding: 5px 20px; */
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -99,6 +99,8 @@ button{
     display: flex;
     position:absolute;
     top: -69px; 
+    max-width: 100%;
+    width: 100%;
 }
 .circle{
     width: 93px;
@@ -106,6 +108,9 @@ button{
     border-radius: 50%;
     background-color: white;
 
+}
+.circle2{
+    display: none;
 }
 .about p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -125,7 +130,7 @@ i{
 }
 .project-container{
     /* background-image:linear-gradient(to bottom, rgb(166, 247, 247), rgb(142, 247, 212)); */
-    background-image: linear-gradient(to bottom, rgba(4, 7, 160, 0.9), rgb(6, 144, 223));
+    background-image: linear-gradient(to bottom,  rgba(5, 9, 252, 0.781),rgba(4, 158, 247, 0.788));
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -147,7 +152,8 @@ i{
     text-align: center;
 }
 .contact-container{
-    background-image: linear-gradient(to right, rgba(4, 7, 160, 0.9), rgb(6, 144, 223));
+    background-image: linear-gradient(to right,  rgba(5, 9, 252, 0.781), rgba(4, 158, 247, 0.788));
+    
     margin-top: 50px;
     text-align: center;
     padding: 20px;
@@ -162,5 +168,48 @@ i{
 .contact-container p{
     font-size: 16px;
     font-weight: 500;
+}
+@media screen and (min-width:675px) {
+    .circle2{
+        display: block;
+        width: 93px;
+        height: 93px;
+        border-radius: 50%;
+        background-color: white;
+    
+    }
+    #hamburger{
+        display: none;
+    }
+    .nav-link{
+        width: 40%;
+        gap: 30px;
+        background-color:transparent;
+        box-shadow: none;
+    
+    }
+    .nav-link a{
+        padding-right: 30px;
+    
+    }
+    .close{
+        display: none;
+    }
+    header{
+        padding: 5px 100px;
+    }
+    .main {
+        padding: 5px 100px;
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+    .project-wrapper{
+        display: flex;
+        gap: 40px;
+        padding: 5px 100px;
+    }
+    .project-wrapper img{
+        width: 100%;
+    }
 }
 

@@ -171,7 +171,7 @@ i{
     font-size: 1em;
     font-weight: 500;
 }
-@media screen and (min-width:600px) {
+@media (min-width:600px) and (max-width:1116px) {
     #hamburger{
         display: none;
     }
@@ -185,7 +185,7 @@ i{
         padding-left: 0;
     }
     header{
-        padding: 5px 20px;
+        padding: 5px 100px;
     }
     .nav-link .link{
         display: flex;
@@ -206,7 +206,7 @@ i{
         display: none;
     }
     .main-section .main {
-        padding: 5px 20px;
+        padding: 5px 100px;
         letter-spacing: 5px;
         font-size: 1.5rem;
     }
@@ -214,7 +214,7 @@ i{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 1.5em;
         font-weight: 500;
-        padding: 30px 20px;
+        padding: 30px 100px;
         line-height: 1.5;
         max-width: 50%;
     }
@@ -252,7 +252,7 @@ i{
         font-weight: 500;
     }
 }
-@media (min-width:1115px) and (max-width:1116px) {
+@media screen and (min-width:1116px)  {
     
     #hamburger{
         display: none;

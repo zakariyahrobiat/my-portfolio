@@ -5,26 +5,26 @@
 }
 .main-section{
     background-image: linear-gradient(to right, rgba(5, 9, 252, 0.781), rgba(4, 158, 247, 0.788) );
-    /* padding: 5px 20px; */
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    max-width: 100%;
 }
 
   header{
         display: flex;
         gap: 30%;
-        padding: 5px 20px;
-        
-        
+   
     }
     .logo-section {
         font-family: cursive;
         font-weight: 900;
-        font-size: 25px;
-        padding-top: 10px;
+        font-size: 2em;
+        padding: 5px 20px;
     }
+    
     #hamburger{
-        font-size: 40px;
+        font-size: 3rem;
         padding-top: 15px;
     }
     .fas{
@@ -32,45 +32,45 @@
         top: 20px;
         left: 82%;
     }
-    .link{
+    .nav-link{
+        display: none;
+    }
+    
+    .main-section .nav-link2{
+        display: flex;
+        gap: 80px;
+        padding-top: 20px;
+        justify-content: center;
+         width: 100%; 
+        height: 100%; 
+        position: absolute;
+        background-color: rgba(8, 8, 241, 0.658);
+        box-shadow: 2px 2px 5px rgba(1, 1, 46, 0.753);
+        z-index: 1;
+        transition: 3s ease;
+    }
+    .nav-link2 a{
+        font-size: 2em;
+        color: white;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 2.0;
+        font-weight: 700;
+        text-align: center;
         display: block;
-        padding: 20px ;
     }
 
-  .nav-link {
-     display: flex;
-     gap: 20px;
-     padding-top: 10px;
-     position: fixed;
-     top: 20px;
-     right: 0;
-     height: 40%;
-      width: 0;
-     overflow: hidden; 
-      background-color: rgba(8, 8, 241, 0.658);
-      box-shadow: 2px 2px 5px rgba(1, 1, 46, 0.753);
-      z-index: 1;
-      transition: 1s ease;
-     
 
-    
-  }
-.nav-link a {
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 2.0;
-    font-weight: 700;
-}
+ 
 
 
-.close{
+ .close{
     font-weight: 900;
     padding-right: 25px;
-    font-size: 35px;
+    font-size: 3em;
     color: white;
 }
+
 .logo-section span{
     color: rgba(2, 2, 68);
 }
@@ -82,6 +82,7 @@
     padding: 20px 0;
     color: white;
     padding: 5px 20px;
+    transition: 2s ease-in;
 }
 button{
     padding: 15px ;
@@ -94,33 +95,25 @@ button{
     margin-top: 20px;
     margin-bottom: 10px;
     
+    
 }
-.shape{
-    display: flex;
-    position:absolute;
-    top: -69px; 
-    max-width: 100%;
-    width: 100%;
-}
-.circle{
-    width: 93px;
-    height: 93px;
-    border-radius: 50%;
+button:hover{
+    cursor: pointer;
+    color: black;
     background-color: white;
+}
 
-}
-.circle2{
-    display: none;
-}
 .about p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     font-weight: 500;
     padding: 30px 20px;
     line-height: 1.5;
+    
+
 }
 i{
-    font-size: 30px;
+    font-size: 3rem;
     color: black;
     
 }
@@ -141,6 +134,11 @@ i{
     /* box-shadow: 2px 2px 5px rgb(1, 129, 129); */
     box-shadow: 2px 2px 5px rgb(1, 1, 61);
     
+}
+.project-container img:hover{
+    cursor: pointer;
+    transition: 3s ease;
+    width: 105%;
 }
 .project-container p{
     padding: 20px;
@@ -164,33 +162,43 @@ i{
 .contact-container i{
     padding-top: 30px;
     padding-right: 20px;
+    
+}
+.contact-container i:hover{
+    cursor: pointer;
 }
 .contact-container p{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500;
 }
-@media screen and (min-width:675px) {
-    .circle2{
-        display: block;
-        width: 93px;
-        height: 93px;
-        border-radius: 50%;
-        background-color: white;
+@media screen and (min-width:1115px) {
     
-    }
     #hamburger{
         display: none;
     }
-    .nav-link{
-        width: 40%;
-        gap: 30px;
-        background-color:transparent;
-        box-shadow: none;
-    
+    .main-section .nav-link{
+        display: flex;
+        width: 50%;
+        padding-top: 30px;
+    }
+    .main-section .logo-section{
+        width: 50%;
+        padding-left: 0;
+    }
+    .nav-link .link{
+        display: flex;
+        gap: 50px;
+                
+    }
+    .nav-link a:hover{
+        color: black;
     }
     .nav-link a{
-        padding-right: 30px;
-    
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+
     }
     .close{
         display: none;
@@ -198,18 +206,53 @@ i{
     header{
         padding: 5px 100px;
     }
-    .main {
+   .main-section .main {
         padding: 5px 100px;
         letter-spacing: 5px;
-        font-size: 30px;
+        font-size: 2rem;
     }
+    .about p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding: 30px 100px;
+        line-height: 1.5;
+        max-width: 50%;
+        
+    
+    }
+    .skills{
+        max-width: 100%;
+        display:flex;
+        text-align: center;
+    }
+    .project-container{
+      padding: 50px 100px;  
+}
     .project-wrapper{
         display: flex;
-        gap: 40px;
-        padding: 5px 100px;
+        gap: 50px;
     }
-    .project-wrapper img{
+    .project-container img{
         width: 100%;
+        height: 100%;
+    
+    }
+    .project-container .project,.project1{
+        height: 100%;
+        width: 100%;
+    }
+    .contact-container i{
+        padding-top: 30px;
+        padding-right: 70px;
+        
+    }
+    .contact-container i:hover{
+        cursor: pointer;
+    }
+    .contact-container p{
+        font-size: 2rem;
+        font-weight: 500;
     }
 }
 

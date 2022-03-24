@@ -3,10 +3,11 @@
  close = document.querySelector(".close")
 
  hamburger.addEventListener("click", ()=>{
-     navLink.style.width = "200px"
+     navLink.classList.toggle("nav-link2")
     
  })
-
  close.addEventListener("click", ()=>{
-    navLink.style.width = "0"
+     navLink.style.display = "none"
  })
+
+ 

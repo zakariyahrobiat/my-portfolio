@@ -171,7 +171,88 @@ i{
     font-size: 1em;
     font-weight: 500;
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:600px) {
+    #hamburger{
+        display: none;
+    }
+    .main-section .nav-link{
+        display: flex;
+        width: 50%;
+        padding-top: 30px;
+    }
+    .main-section .logo-section{
+        width: 50%;
+        padding-left: 0;
+    }
+    header{
+        padding: 5px 20px;
+    }
+    .nav-link .link{
+        display: flex;
+        gap: 20px;
+                
+    }
+    .nav-link a:hover{
+        color: black;
+    }
+    .nav-link a{
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+
+    }
+    .close{
+        display: none;
+    }
+    .main-section .main {
+        padding: 5px 20px;
+        letter-spacing: 5px;
+        font-size: 1.5rem;
+    }
+    .about p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding: 30px 20px;
+        line-height: 1.5;
+        max-width: 50%;
+    }
+    .skills{
+        max-width: 100%;
+        display:flex;
+        text-align: center;
+    }
+    .project-container{
+      padding: 50px 100px;  
+}
+    .project-wrapper{
+        display: flex;
+        gap: 50px;
+    }
+    .project-container img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .project-container .project,.project1{
+        height: 100%;
+        width: 100%;
+    }
+    .contact-container i{
+        padding-top: 30px;
+        padding-right: 70px;
+        
+    }
+    .contact-container i:hover{
+        cursor: pointer;
+    }
+    .contact-container p{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+@media (min-width:1115px) and (max-width:1116px) {
     
     #hamburger{
         display: none;

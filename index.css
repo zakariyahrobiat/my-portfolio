@@ -112,9 +112,9 @@ button:hover{
     
 
 }
-i{
-    font-size: 3rem;
-    color: black;
+.skills i{
+     font-size: 3rem; 
+    color: black; 
     
 }
 .skills{
@@ -219,9 +219,18 @@ i{
         max-width: 100%;
     }
     .skills{
-        max-width: 100%;
         display:flex;
+        gap: -100px;
         text-align: center;
+        margin-top: 30px;
+    }
+    .skills i{
+        font-size: 2rem; 
+       color: black; 
+       
+   }
+    .skills p{
+        padding-right: 0px;
     }
     .project-container{
       padding: 50px 100px;  

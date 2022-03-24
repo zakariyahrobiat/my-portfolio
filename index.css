@@ -168,6 +168,8 @@ button:hover{
 }
 .contact-container i:hover{
     cursor: pointer;
+    transition: 2s ease;
+    color: white;
 }
 .contact-container p{
     font-size: 1em;

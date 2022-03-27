@@ -34,7 +34,8 @@
     }
     .nav-link{
         /* visibility: hidden; */
-        display: none;
+        /* display: none; */
+        transform: translateX(-1000%);
     }
     
     .main-section .nav-link2{
@@ -51,6 +52,7 @@
         transition: 3s ease;
         /* visibility: visible; */
         display: block;
+        transform: translateX(0);
     }
     .nav-link2 a{
         font-size: 2em;

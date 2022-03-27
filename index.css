@@ -51,7 +51,7 @@
         z-index: 1;
         transition: 3s ease;
         /* visibility: visible; */
-        display: block;
+        /* display: block; */
         transform: translateX(0);
     }
     .nav-link2 a{

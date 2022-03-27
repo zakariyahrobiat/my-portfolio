@@ -33,7 +33,8 @@
         left: 82%;
     }
     .nav-link{
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
     
     .main-section .nav-link2{
@@ -48,7 +49,8 @@
         box-shadow: 2px 2px 5px rgba(1, 1, 46, 0.753);
         z-index: 1;
         transition: 3s ease;
-        visibility: visible;
+        /* visibility: visible; */
+        display: block;
     }
     .nav-link2 a{
         font-size: 2em;

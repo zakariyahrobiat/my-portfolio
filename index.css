@@ -33,7 +33,7 @@
         left: 82%;
     }
     .nav-link{
-        visibility: hidden;
+        display: none;
     }
     
     .main-section .nav-link2{

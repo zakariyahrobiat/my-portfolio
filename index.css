@@ -33,9 +33,7 @@
         left: 82%;
     }
     .nav-link{
-        /* visibility: hidden; */
-        /* display: none; */
-        transform: translateX(-1000%);
+        display: none;
     }
     
     .main-section .nav-link2{
@@ -50,9 +48,6 @@
         box-shadow: 2px 2px 5px rgba(1, 1, 46, 0.753);
         z-index: 1;
         transition: 3s ease;
-        /* visibility: visible; */
-        /* display: block; */
-        transform: translateX(0);
     }
     .nav-link2 a{
         font-size: 2em;

@@ -7,7 +7,7 @@
     
  })
  close.addEventListener("click", ()=>{
-     navLink.style.display = "none"
+     navLink.classList.remove("nav-link2")
  })
 
  
